@@ -1,5 +1,13 @@
 import java.util.Scanner;
 
+/*------------------------------------------------------
+Name: Oliver Ross
+Student number: 7458939
+Email address: or955@uowmail.edu.au
+Subject Code: CSIT111
+Assignment number: 2
+-------------------------------------------------------*/
+
 public class IntersectionTest {
 
     private static Intersection intersection;
@@ -11,6 +19,7 @@ public class IntersectionTest {
         displayIntersectionArea();
     }
 
+    //Prompts the user for the x, y and radius of the circle
     private static void prompt(){
         System.out.println("Enter the Coordinate of centre point (x, y) and radius for the first circle");
         Scanner scanner = new Scanner(System.in);
@@ -44,6 +53,7 @@ public class IntersectionTest {
 
     }
 
+    //Prints the area of the circles given in prompt method
     private static void displayCircleAreas(){
         //Get the area of both circles
         double areaCircle1 = intersection.getCircleA().calArea();
@@ -53,6 +63,7 @@ public class IntersectionTest {
         System.out.printf("\nThe area of the second circle is %.2f", areaCircle2);
     }
 
+    //Prints the area of the intersection created between the circles given in the prompt method
     private static void displayIntersectionArea(){
         //Get the area of the intersection of both circles
         double intersectionArea = intersection.calIntersectionArea();

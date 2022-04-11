@@ -1,3 +1,11 @@
+/*------------------------------------------------------
+Name: Oliver Ross
+Student number: 7458939
+Email address: or955@uowmail.edu.au
+Subject Code: CSIT111
+Assignment number: 2
+-------------------------------------------------------*/
+
 public class Point {
 
     private double x;
